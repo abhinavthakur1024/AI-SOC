@@ -1,0 +1,24 @@
+# Core Python Libraries
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# Log Parsing & Handling
+python-dateutil
+regex
+
+# ELK Stack Integration
+elasticsearch
+
+
+# Jupyter Notebook
+notebook
+jupyterlab
+
+# For Mock Data Generation
+faker
+
+# Optional (for better visualization)
+plotly

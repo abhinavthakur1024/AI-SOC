@@ -1,0 +1,50 @@
+Aug 16 12:12:21 myserver sshd[12345]: Invalid user guest from 172.16.0.22
+Aug 16 12:12:22 myserver sshd[12345]: Failed password for admin from 10.0.0.5 port 22 ssh2
+Aug 16 12:12:22 myserver sshd[12345]: Failed password for user1 from 10.0.0.5 port 22 ssh2
+Aug 16 12:12:22 myserver sshd[12345]: Failed password for guest from 192.168.1.10 port 22 ssh2
+Aug 16 12:12:22 myserver sshd[12345]: Failed password for admin from 172.16.0.22 port 22 ssh2
+Aug 16 12:12:22 myserver sshd[12345]: Invalid user root from 10.0.0.5
+Aug 16 12:12:23 myserver sshd[12345]: Invalid user guest from 203.0.113.45
+Aug 16 12:12:23 myserver sshd[12345]: Accepted password for guest from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:23 myserver sshd[12345]: sudo: admin : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:23 myserver sshd[12345]: Accepted password for user1 from 192.168.1.10 port 22 ssh2
+Aug 16 12:12:23 myserver sshd[12345]: Failed password for user1 from 192.168.1.10 port 22 ssh2
+Aug 16 12:12:24 myserver sshd[12345]: Failed password for guest from 10.0.0.5 port 22 ssh2
+Aug 16 12:12:24 myserver sshd[12345]: Invalid user root from 172.16.0.22
+Aug 16 12:12:24 myserver sshd[12345]: sudo: admin : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:24 myserver sshd[12345]: sudo: root : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:24 myserver sshd[12345]: Invalid user guest from 203.0.113.45
+Aug 16 12:12:25 myserver sshd[12345]: Invalid user user1 from 10.0.0.5
+Aug 16 12:12:25 myserver sshd[12345]: Invalid user admin from 203.0.113.45
+Aug 16 12:12:25 myserver sshd[12345]: Invalid user root from 172.16.0.22
+Aug 16 12:12:25 myserver sshd[12345]: Failed password for user1 from 192.168.1.10 port 22 ssh2
+Aug 16 12:12:26 myserver sshd[12345]: sudo: admin : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:26 myserver sshd[12345]: Accepted password for user1 from 10.0.0.5 port 22 ssh2
+Aug 16 12:12:26 myserver sshd[12345]: Invalid user user1 from 10.0.0.5
+Aug 16 12:12:26 myserver sshd[12345]: Failed password for root from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:26 myserver sshd[12345]: Invalid user root from 192.168.1.10
+Aug 16 12:12:27 myserver sshd[12345]: Failed password for user1 from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:27 myserver sshd[12345]: sudo: root : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:27 myserver sshd[12345]: Invalid user guest from 203.0.113.45
+Aug 16 12:12:27 myserver sshd[12345]: Invalid user user1 from 203.0.113.45
+Aug 16 12:12:27 myserver sshd[12345]: Invalid user guest from 203.0.113.45
+Aug 16 12:12:28 myserver sshd[12345]: sudo: user1 : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:28 myserver sshd[12345]: Accepted password for root from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:28 myserver sshd[12345]: Accepted password for guest from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:28 myserver sshd[12345]: sudo: root : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:28 myserver sshd[12345]: Failed password for user1 from 192.168.1.10 port 22 ssh2
+Aug 16 12:12:29 myserver sshd[12345]: Failed password for admin from 10.0.0.5 port 22 ssh2
+Aug 16 12:12:29 myserver sshd[12345]: Invalid user user1 from 10.0.0.5
+Aug 16 12:12:29 myserver sshd[12345]: Accepted password for admin from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:29 myserver sshd[12345]: Accepted password for root from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:29 myserver sshd[12345]: sudo: admin : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:30 myserver sshd[12345]: Invalid user root from 172.16.0.22
+Aug 16 12:12:30 myserver sshd[12345]: Failed password for root from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:30 myserver sshd[12345]: sudo: user1 : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:30 myserver sshd[12345]: Accepted password for user1 from 10.0.0.5 port 22 ssh2
+Aug 16 12:12:30 myserver sshd[12345]: sudo: user1 : command not allowed ; user attempted privilege escalation
+Aug 16 12:12:31 myserver sshd[12345]: Accepted password for root from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:31 myserver sshd[12345]: Accepted password for guest from 203.0.113.45 port 22 ssh2
+Aug 16 12:12:31 myserver sshd[12345]: Failed password for guest from 192.168.1.10 port 22 ssh2
+Aug 16 12:12:31 myserver sshd[12345]: Failed password for admin from 172.16.0.22 port 22 ssh2
+Aug 16 12:12:31 myserver sshd[12345]: Invalid user root from 172.16.0.22

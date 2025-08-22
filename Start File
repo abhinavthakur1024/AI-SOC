@@ -1,0 +1,39 @@
+steps to run the code 
+1️⃣ Start Elasticsearch & Kibana with Docker
+You used Docker to bring up Elasticsearch and Kibana.
+(likely something like:)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+docker start elasticsearch
+docker start kibana
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+This gave you:
+Elasticsearch API at → http://localhost:9200
+Kibana at → http://localhost:5601
+
+
+2️⃣ Verify Elasticsearch is Running
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+curl -X GET "http://localhost:9200/"
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+3️⃣ Run AI-SOC main.py for the first time
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+python main.py
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+6️⃣ Deleted the Index (Optional Reset)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+curl -X DELETE "http://localhost:9200/syslog_data"
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+7️⃣ Ran AI-SOC Again
+python main.py
+
+8️⃣ Verified Logs
+curl -X GET "http://localhost:9200/syslog_data/_count"
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Start Docker → Verify ES/Kibana → Run AI-SOC → Check Count → Delete old logs → Re-run pipeline → Confirm 200 logs.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
