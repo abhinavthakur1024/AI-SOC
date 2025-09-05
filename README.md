@@ -14,3 +14,9 @@ Build an AI-driven Security Operations Center (SOC) agent that analyzes system l
 - **ELK Stack**: Log storage, search, visualization
 - **Machine Learning**: K-Means, Isolation Forest
 - **Docker**: Containerized environment
+
+start code    
+docker start elasticsearch docker start kibana  
+This gave you: Elasticsearch API at → http://localhost:9200 Kibana at → http://localhost:5601   
+2️⃣ Verify Elasticsearch is Running  curl -X GET "http://localhost:9200/"   
+3️⃣ Run AI-SOC main.py for the first time python main.py 
